@@ -41,6 +41,26 @@ void append(node *&current, string target)
 		}
 		temp->next = new node(target);
 }
+void insert(node *&current, string value, int position)
+{
+	node *&temp = current;
+		int count = 0;
+
+		while (count = position - 1)
+	{
+		if (position = 0)
+	{
+		node *newN = new node(value);
+			newN->next = temp;
+	}
+	}
+		
+	node *newN = new node(value);
+	newN->next = temp->next;
+	return;
+	count++;
+	
+}
 
 
 int main()
